@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'KaushanScriptRegular';
+    src: url('../fonts/kaushanscript/kaushanscript-regular-webfont.eot');
+    src: url('../fonts/kaushanscript/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kaushanscript/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../fonts/kaushanscript/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kaushanscript/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'copseregular';
+    src: url('../fonts/copse/copse-regular-webfont.eot');
+    src: url('../fonts/copse/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/copse/copse-regular-webfont.woff2') format('woff2'),
+         url('../fonts/copse/copse-regular-webfont.woff') format('woff'),
+         url('../fonts/copse/copse-regular-webfont.ttf') format('truetype'),
+         url('../fonts/copse/copse-regular-webfont.svg#copseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'blackjackregular';
+    src: url('../fonts/blackjack/black_jack-webfont.eot');
+    src: url('../fonts/blackjack/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blackjack/black_jack-webfont.woff2') format('woff2'),
+         url('../fonts/blackjack/black_jack-webfont.woff') format('woff'),
+         url('../fonts/blackjack/black_jack-webfont.ttf') format('truetype'),
+         url('../fonts/blackjack/black_jack-webfont.svg#blackjackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+body {
+	background-image: url("Images/restaurant.jpg");
+	background-repeat: repeat;}
+
+/* entire content of menu */
+h1+div {
+	width: 1200px;
+	margin: 0px auto;}
+
+/* Japanese page sushi raw meat warning */
+p {
+	margin-left: 20px;
+	font-weight: bold;}
+
+/* menu lists w/out pictures */
+ul {
+	font-size: 18px;
+	line-height: 1.5em;}
+	
+/* navigation bar */
+nav {
+	background-color: Gainsboro;
+	text-align: center;}
+ul#nav>li {
+	display: inline;
+	border-left: 1px solid DimGray;
+	border-right: 1px solid DimGray;
+	padding: 0px 10px;
+	font-family: copseregular;
+	font-size: 20px;}
+ul#nav a {
+	text-decoration: none;
+	color: DarkBlue;}
+ul#nav a:hover{
+	background-color: PaleTurquoise;
+	border-radius: 5px;}
+ul#nav {
+	padding: 20px;}
+	
+/* headers */
+h1#logo {
+	background-color: LightSkyBlue;
+	padding: 13px;
+	font-size: 36px;
+	border: 10px ridge RoyalBlue;}
+h1#logo>a {
+	color: black;
+	text-decoration: none;}
+span {
+	font-family: copseregular;
+	font-size: 48px;}
+h1 {
+	font-family: KaushanScriptRegular;
+	background-color: SpringGreen;
+	padding: 10px;
+	text-shadow: 2px 2px 5px White;
+	text-align: center;}
+h2, h3 {
+	clear: left;
+	font-family: KaushanScriptRegular;
+	padding: 15px;
+	margin: 10px 20px;}
+h2 {
+	border-bottom: 3px solid Blue;
+	border-top: 3px solid Blue;}
+h3 {
+	border-bottom: 2px dashed DarkTurquoise;
+	border-top: 2px dashed DarkTurquoise;}
+	
+/* figure image */
+figure {
+	background-color: LightGrey;
+	width: 360px;
+	height: 340px;
+	padding: 10px;
+	margin: 10px 10px;
+	text-align: center;
+	float: left;}
+img {
+	width: 300px;
+	height: 250px;
+	padding: 25px 0px;}
+figcaption {
+	position: relative;
+	bottom: 15px;
+	background-color: LightPink;
+	width: 350px;
+	height: 20px;
+	padding: 8px 0px;
+	border: 5px outset SlateBlue;
+	font-family: blackjackregular;
+	font-size: 20px;
+	font-weight: bold;}
+div {
+	overflow: auto;
+	width: 100%;
+	height: 100%;}

@@ -1,0 +1,43 @@
+body {
+	background-image: url("Images/restaurant.jpg");
+	background-repeat: repeat;}
+h1 {
+	font-family: Arial;
+	background-color: PowderBlue;
+	padding: 15px;}
+h2 {
+	background-color: Aquamarine;
+	padding: 15px;}
+h3 {
+	font-family: KaushanScriptRegular;
+	color: Gray;}
+ul {
+	font-family: Arial;
+	font-size: 16px;}
+div {
+	float: left;
+	padding: 15px;}
+div#div {
+	overflow: auto;
+	width: 100%;
+	padding: 0px;}
+
+/* nav */
+nav {
+	background-color: Gainsboro;
+	text-align: center;}
+ul#nav>li {
+	display: inline;
+	border-left: 1px solid DimGray;
+	border-right: 1px solid DimGray;
+	padding: 0px 10px;
+	font-family: copseregular;
+	font-size: 20px;}
+ul#nav a {
+	text-decoration: none;
+	color: DarkBlue;}
+ul#nav a:hover{
+	background-color: PaleTurquoise;
+	border-radius: 5px;}
+ul#nav {
+	padding: 20px;}
